@@ -1,0 +1,39 @@
+.btn {
+    border: none;
+    display: inline-block;
+    padding: 1.5rem 2.8rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .2s;
+    
+    &__link {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    &:hover {
+        box-shadow: 0 .8rem 2.8rem rgb(85, 84, 84);
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    &__trans {
+        border: 1px solid #fff;
+        background-color: transparent;
+        color: #fff;
+    }
+
+    &__inver {
+        border: 1px solid #fff;
+        background-color: #ec0f9793;
+        color: #fff;
+    }
+}
+
+
+
+//ANIMATIONS 
+

@@ -1,32 +1,127 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Startup</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="vessel">
+        <nav class="navigation">
+            <div class="logo"> 
+                <h1 class = "logo__text">Jane Doe</h1>
+            </div>
+                
+            <div class="nav__list">
+                <a href="#about" class="nav__links">About</a>
+                <a href="#work" class="nav__links">Work</a>
+                <a href="#contact-pop" class="nav__links">Contact</a>
+            </div>
 
-    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <!-- Your own stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <div class="container d-flex align-items-center h-100">
-      <div class="row">
-        <header class="text-center col-12">
-          <h1 class="text-uppercase"><strong>The biggest startup event of the year</strong></h1>
-        </header>
-        <div class="buffer col-12"></div>
-        <section class="text-center col-12">
-          <hr> 
-          <a href="https://mailchi.mp/3b6d1efdef77/kleinzlearning" class="smart"><button class="btn btn-primary btn-xl">Find out more</button></a>
-        </section>
-        
-      </div>
+            <div class="info">
+                <span>Address:</span>
+                <p> 9475 Walt Whitman Ave.</br>
+                    Rocky Mount, NC 27804
+                </p>
+                <span>Phone:</span>
+                <p> +1758 4609145</p>
+
+                <div class="contect">
+                    <span class="social">Socials:</span>
+                    <img src="./Img/facebook.png" class="contect__images"><a href="www.facebook.com" class="contect__links"></a></img>
+                    <img src="./Img/twitter.png" class="contect__images"><a href="www.twitter.com" class="contect__links"></a></img>
+                    <img src="./Img/instagram.png" class="contect__images"><a href="www.instagram.com" class="contect__links"></a></img>
+                
+                </div>
+                
+
+            </div>
+
+            <footer class="footer"> Copyright&copy; by sanny antoine</footer>
+        </nav>
+        <div class="content">
+            <section class="hero">
+                <div class="hero__header">
+                    <h1 class="hero__text">The photographer you need</h1>
+                    <p class="hero__para">~ Jane doe</p>
+                    <div class="buttons">
+                        <button class="btn btn__trans"><a class="btn__link" href="#work">My work</a></button>
+                        <button class="btn btn__inver"><a class="btn__link" href="#contact-pop">Hire me</a></button>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="about">
+               <!--<img  class="about__image"src="/img/image.jpg" alt="Jane Doe"> --->
+               <div class="about__image" id="about">
+                    <div class="about__image-content">
+                        <div class="image__name">Jane Deo</div>
+                    </div>
+                
+                </div>
+                <h1 class="about__title"> About Myself</h1>
+
+                <p class="about__text"> 
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Molestiae suscipit dolorem harum quae illum, nam incidunt 
+                     natus cum cumque fugiat voluptate, ut quaerat nihil. Debitis 
+                     temporibus enim eligendi asperiores placeat sunt, facere dignissimos,
+                    assumenda hic omnis praesentium, blanditiis illo. Ipsa?
+                    natus cum cumque fugiat voluptate, ut quaerat nihil. Debitis 
+                     temporibus enim eligendi asperiores placeat sunt, facere dignissimos,
+                    assumenda hic omnis praesentium, blanditiis illo. Ipsa?
+                </p>
+
+            </section>
+            <section class="gallery">
+                <h1 class="gallery__title" id="work">My Work</h1>
+                <figure class="gallery__image">
+                    <img src="https://images.unsplash.com/photo-1548765015-1e047ff5c9e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                </figure>
+                <figure class="gallery__image">
+                    <img src="https://images.unsplash.com/photo-1541250848049-b4f7141dca3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                </figure>
+                <figure class="gallery__image">
+                    <img src="https://images.unsplash.com/photo-1526848268848-a4ac79628852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                </figure>
+                <figure class="gallery__image">
+                    <img src="https://images.unsplash.com/photo-1568149213674-d1dbd4ae53c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                </figure>
+                <figure class="gallery__image">
+                    <img src="https://images.unsplash.com/photo-1549221987-25a490f65d34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                </figure>
+                <figure class="gallery__image">
+                    <img src="https://images.unsplash.com/photo-1564223288351-a96bea22b5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                </figure>
+                
+            </section>
+            <section class="contact" id="contact-pop">
+                <div class="contact__content">
+                    <a href="#" class="contact__close">&#10005;</a>
+                    <form action="" class="contact__form">
+                        <h1 class="contact__title">Link up</h1>
+                        <div class="contact__contect">
+                            <div class="contact__name">
+                                <label for="">Name:</label>
+                                <input type="text" placeholder="Name">
+                            </div>
+                            <div class="contact__email">
+                                <label for="">Email:</label>
+                                <input type="email" placeholder="Name">
+                            </div>
+                            <div class="contact__message">
+                                <label for="">Name:</label>
+                                <textarea name="" id="" cols="20" rows="5" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <footer class="footer1"> </footer>
+        </div>
     </div>
-  
-  </body>
+    <script src="file.js"></script>
+</body>
 </html>
